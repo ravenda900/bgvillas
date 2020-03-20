@@ -20,7 +20,7 @@
                 <div class="col-md-12 ta-right fc-grey">
 
 
-                     <nav class="foot-nav">
+                     <!-- <nav class="foot-nav">
                         <?php
                             $args = array(
                                 'theme_location' => 'footer-menu',
@@ -29,33 +29,33 @@
                             );
                         ?>
                         <?php wp_nav_menu( $args ); ?>
-                    </nav>
+                                         </nav> -->
 
                          <div class="social-links">
                         <ul class="unstyled inline pd-r-l">
                             <li class="first">
                                 <a href="https://www.facebook.com/bettergardensdubai" target="blank" rel="nofollow">
-                                    <i class="fa fa-facebook h5 fw-light fc-grey"></i>
+                                    <i class="fa fa-facebook h6 fw-light fc-grey"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/company/better-gardens-llc" target="blank" rel="nofollow">
-                                    <i class="fa fa-linkedin h5 fw-light fc-grey"></i>
+                                    <i class="fa fa-linkedin h6 fw-light fc-grey"></i>
                                 </a>
                             </li>
                             <li class="last">
                                 <a href="https://www.houzz.com/pro/better-gardens/better-gardens" target="blank" rel="nofollow">
-                                    <i class="fa fa-houzz h5 fw-light fc-grey"></i>
+                                    <i class="fa fa-houzz h6 fw-light fc-grey"></i>
                                 </a>
                             </li>
                               <li class="last">
                                 <a href="https://www.instagram.com/bettergardens/" target="blank" rel="nofollow">
-                                    <i class="fa fa-instagram h5 fw-light fc-grey"></i>
+                                    <i class="fa fa-instagram h6 fw-light fc-grey"></i>
                                 </a>
                             </li>
                               <li class="last">
                                 <a href="https://www.pinterest.com/bettergardens/" target="blank" rel="nofollow">
-                                    <i class="fa fa-pinterest h5 fw-light fc-grey"></i>
+                                    <i class="fa fa-pinterest h6 fw-light fc-grey"></i>
                                 </a>
                             </li>
                         </ul>
@@ -75,12 +75,12 @@
         <div id="phoneEmailPopup">
             <div class="boxPhone" data-type="phone">
                 <div class="phone-ico"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-10" href="tel: + 971 4 551 6760 "> + 971 4 551 6760 </a></h3>
+                <h3 class="fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-3" href="tel: + 971 4 551 6760 "> + 971 4 551 6760 </a></h3>
             </div>
 
-            <div class="boxEmails mtpx-50" data-type="email">
+            <div class="boxEmails mtpx-40" data-type="email">
                 <div class="email-ico"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-10" href="mailto:info@bgllc.ae">info@bgllc.ae</a></h3>
+                <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-3" href="mailto:info@bgllc.ae">info@bgllc.ae</a></h3>
             </div>
         </div>
     </div>

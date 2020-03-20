@@ -10630,13 +10630,13 @@ form .contact-form [class^="col-sm-"] {
       padding: 90px 0; }
   .box.icon-box #phoneEmailPopup {
     position: fixed;
-    top: 45%;
+    top: 60%;
     right: 0px;
     z-index: 11; }
     .box.icon-box #phoneEmailPopup .boxPhone, .box.icon-box #phoneEmailPopup .boxEmails {
       overflow: hidden;
-      width: 48px;
-      height: 43px;
+      width: 40px;
+      height: 32px;
       background: white;
       border-radius: 4px 0px 0 4px;
       z-index: 99999;
@@ -10646,7 +10646,7 @@ form .contact-form [class^="col-sm-"] {
       position: inherit;
       right: 0px; }
       .box.icon-box #phoneEmailPopup .boxPhone:hover, .box.icon-box #phoneEmailPopup .boxEmails:hover {
-        width: 200px;
+        width: 150px;
         -webkit-transition: 0.4s;
         -moz-transition: 0.4s;
         -o-transition: 0.4s;
@@ -10658,10 +10658,10 @@ form .contact-form [class^="col-sm-"] {
       float: left;
       margin: 7px 8px 0px 8px; }
     .box.icon-box #phoneEmailPopup i.fa-envelope::before {
-      font-size: 32px;
+      font-size: 20px;
       color: #23caf4 !important; }
     .box.icon-box #phoneEmailPopup i.fa-phone::before {
-      font-size: 32px;
+      font-size: 20px;
       color: #23caf4 !important; }
   .box.six-boxex {
     margin-bottom: 30px; }
@@ -11585,4 +11585,8 @@ div#wpcs_content_main_408 {
 
 .fs-xmedium{
 	font-size:14px;
+}
+
+.wpcs_tab {
+  top: 80% !important;
 }

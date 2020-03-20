@@ -1,5 +1,5 @@
 .box {
-	
+
 	position: relative;
 
 	&.portfolio-box{
@@ -15,12 +15,12 @@
 			right: 0;
 			left: 0;
 			bottom: 0;
-			margin: auto;			
+			margin: auto;
 			background: rgba(255, 255, 255, 0.9);
 			@include size(0%, 0%);
 			overflow: hidden;
 			transition: 0.4s;
-			
+
 		}
 
 		&:hover{
@@ -47,15 +47,15 @@
 	// 		.inner-content {
 	// 			display: block;
 	// 			bottom: 72px;
-	// 		}	
+	// 		}
 	// 	}
-		
+
 	// }
 
 	&.icon-box{
 			#phoneEmailPopup {
 			position: fixed;
-			top: 45%;
+			top: 60%;
 			right: 0px;
 			z-index: 11;
 
@@ -179,11 +179,11 @@
 			border-top: 14px solid transparent;
 			border-left: 50px solid darken($theme-secondary, 20%);
 			border-bottom: 14px solid transparent;
-			
+
 		}
 
 		.title{
-			
+
 		}
 	}
 
@@ -196,7 +196,7 @@
 
 		@media (max-width: 767px){
 			top: 0px;
-			
+
 		}
 	}
 
@@ -342,12 +342,12 @@
 	// 				background-position: -166px -591px;
 	// 			}
 	// 			&.icon-linkedin{
-	// 				background-position: -239px -591px;					
+	// 				background-position: -239px -591px;
 	// 			}
 	// 			&.icon-silla{
-	// 				background-position: -307px -591px;					
+	// 				background-position: -307px -591px;
 	// 			}
-	// 		}			
+	// 		}
 	// 	}
 	// 	.xicon{
 	// 		font-size: 18px;
@@ -381,7 +381,7 @@
 	// 		background: red;
 	// 	}
 	// 	.btn{
-			
+
 	// 	}
 	// }
 
@@ -470,18 +470,18 @@
 				font-size: 36px;
 				background:$theme-primary;
 				border-radius: 50%;
-				text-align: center;		
-				@include transition (0.2s);	
-				color: $theme-white;	
+				text-align: center;
+				@include transition (0.2s);
+				color: $theme-white;
 			}
-			
-		}		
+
+		}
 		.content{
 			margin-top: 4px;
 			width: calc(100% - 100px);
 			float: left;
 			span{
-				@include transition (0.2s);	
+				@include transition (0.2s);
 			}
 		}
 		&:hover{
@@ -563,7 +563,7 @@
 	// 	margin-bottom: 10px;
 	// 	@include transition (0.6s);
 	// 	figure{
-			
+
 	// 	}
 	// 	.title{
 	// 	    margin-bottom: 10px;
@@ -682,11 +682,11 @@
 
 	// 	.inside-boxex{
 	// 		position: relative;
-	// 		overflow: hidden;	
+	// 		overflow: hidden;
 	// 		display: table;
 	// 		height: 300px;
 	// 		max-height: 300px;
-	// 		width: 100%;		
+	// 		width: 100%;
 	// 		.inner{
 	// 			display: table-cell;
 	// 			vertical-align: middle;
@@ -696,7 +696,7 @@
 	// 				top: 10px;
 	// 				color: $theme-pink;
 	// 			}
-	// 		}	
+	// 		}
 	// 		&:hover{
 	// 			.link{
 	// 				opacity: 1;
@@ -727,7 +727,7 @@
 	// 		width: 90%;
 	// 		text-transform: uppercase;
 	// 		text-align: center;
-	// 		padding: 20px 0;			
+	// 		padding: 20px 0;
 	// 	    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
 	// 	    background-color: $theme-white;
 	// 	    @include transition (0.3s);
