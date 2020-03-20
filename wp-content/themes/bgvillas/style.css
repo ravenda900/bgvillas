@@ -9491,7 +9491,7 @@ hr {
   clear: both; }
 
 .fc-primary {
-  color: #23caf4; }
+  color: #24cbf4; }
 
 .fc-secondary {
   color: #c1c1c1; }
@@ -10318,9 +10318,9 @@ header.ph {
       max-width: 180px;
       padding: 4px 0; } }
   header.ph nav.pn {
-    position: absolute;
+    /* position: absolute;
     right: 2%;
-    top: 13px;}
+    top: 13px; */}
     header.ph nav.pn li {
       font-weight: 400;
       padding: 10px 16px;

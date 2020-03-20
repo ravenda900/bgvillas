@@ -54,6 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="mobile-nav">
         <a href="<?php echo site_url(); ?>" class="logo-block">
             <img src="<?php bloginfo('template_directory'); ?>/images/mobile-logo.png" alt="*">
+            <p class="fc-primary">DESIGN + BUILT</p>
         </a>
         <p></p>
         <nav class="">
@@ -81,11 +82,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="">
             <div class="col-md-3">
                 <a href="<?php echo site_url(); ?>" class="logo d-inline-block">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/header-logo.png" alt="*">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/header-logo.png" alt="*">
+                    <p class="fc-primary">DESIGN + BUILT</p>
                 </a>
             </div>
             <div class="col-md-9 col-nopadd hidden-md-down">
-                <nav class="pn">
+                <nav class="pn float-right mtpx-10">
                     <?php
                         $args = array(
                             'theme_location' => 'primary',
