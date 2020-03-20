@@ -9752,6 +9752,10 @@ hr {
         -moz-transition: 0.4s;
         -o-transition: 0.4s;
         transition: 0.4s; }
+        .mobile-nav nav li.current-menu-item a {
+          color: #ffffff;
+          background: #23caf4;
+        }
         .mobile-nav nav li a.active {
           color: #ffffff;
           background: #23caf4; }
@@ -10630,7 +10634,7 @@ form .contact-form [class^="col-sm-"] {
       padding: 90px 0; }
   .box.icon-box #phoneEmailPopup {
     position: fixed;
-    top: 60%;
+    top: 50%;
     right: 0px;
     z-index: 11; }
     .box.icon-box #phoneEmailPopup .boxPhone, .box.icon-box #phoneEmailPopup .boxEmails {

@@ -90,7 +90,7 @@ get_header(); ?>
             <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-10" href="tel: + 971 4 551 6760 "> + 971 4 551 6760 </a></h3>
         </div>
 
-        <div class="boxEmails mtpx-50" data-type="email">
+        <div class="boxEmails mtpx-40" data-type="email">
             <div class="email-ico"><i class="fa fa-envelope" aria-hidden="true"></i></div>
             <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-10" href="mailto:info@bgllc.ae">info@bgllc.ae</a></h3>
         </div>
