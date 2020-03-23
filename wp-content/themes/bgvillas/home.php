@@ -25,7 +25,7 @@ get_header(); ?>
                     <p class="fc-grey fs--xsmall fcopy">&copy; 2018 All Rights Reserved</p>
                 </div>
             </div> -->
-            <div class="col-md-12 ta-right fc-grey">
+            <div class="col-md-12 ta-center fc-grey">
                 <!-- <nav class="foot-nav">
                     <?php
                         $args = array(

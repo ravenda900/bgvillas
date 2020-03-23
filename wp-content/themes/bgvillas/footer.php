@@ -17,7 +17,7 @@
                     </div>
                 </div> -->
 
-                <div class="col-md-12 ta-right fc-grey">
+                <div class="col-md-12 ta-center fc-grey">
 
 
                      <!-- <nav class="foot-nav">
@@ -70,17 +70,14 @@
     </div>
     </footer>
 </main>
-
-    <div class="box icon-box">
-        <div id="phoneEmailPopup">
-            <div class="boxEmails mtpx-40" data-type="email">
-                <div class="email-ico"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <h3 class="float-left fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-3" href="mailto:info@bgllc.ae">info@bgllc.ae</a></h3>
-            </div>
-            <div class="boxPhone" data-type="phone">
-                <div class="phone-ico"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                <h3 class="fc-primary mtpx-3"> <a class="fc-primary fs-default d-block ptpx-3" href="tel: + 971 4 551 6760 "> + 971 4 551 6760 </a></h3>
-            </div>
+    <ul class="list-style-none contacts">
+        <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <strong class="fc-primary"> <a class="fc-primary" href="mailto:info@bgllc.ae">info@bgllc.ae</a></strong>
+        </div>
+        <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <strong class="fc-primary"> <a class="fc-primary" href="tel: + 971 4 551 6760"> + 971 4 551 6760 </a></strong>
         </div>
     </div>
 
